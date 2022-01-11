@@ -6,10 +6,10 @@
     border-bottom: 4px solid black;
   }
 
-
   .navbar-brand {
     padding-top: 15px;
   }
+
   .navbar-brand h1 { /* Restaurant name */
     font-family: sans-serif;
     color: black;
@@ -50,3 +50,15 @@
     margin-top: -30px;
   }
   /* END HEADER */
+
+  /* BODY */
+section{
+    background-color: grey;
+    margin: 0 auto 15px;
+    padding: 5px 5px 5px 5px;
+}
+@media (min-width: 667px) and (max-width: 1199px){
+  section{
+    width: 300px;
+  }
+}
